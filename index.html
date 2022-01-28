@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/47245e170d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Website</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__inner-wrap">
+          <div class="header__logo">
+            <div class="header__img"></div>
+          </div>
+          <input
+            title="toggle"
+            class="header__button"
+            id="header__btn"
+            type="checkbox"
+          />
+          <label class="header__menu-icon" for="header__btn">
+            <span class="nav-menu-icon"></span>
+          </label>
+          <ul class="navigation navigation-list">
+            <li class="navigation__item">
+              <span class="navigation__dash"> &mdash; </span>
+              <a href="#" class="navigation__link">home</a>
+            </li>
+            <li class="navigation__item">
+              <span class="navigation__dash"> &mdash; </span
+              ><a href="#pricing" class="navigation__link">pricing</a>
+            </li>
+            <li class="navigation__item">
+              <span class="navigation__dash"> &mdash; </span
+              ><a href="#about" class="navigation__link">about</a>
+            </li>
+            <li class="navigation__item">
+              <span class="navigation__dash"> &mdash; </span>
+              <a href="#products" class="navigation__link">products</a>
+            </li>
+            <li class="navigation__item">
+              <span class="navigation__dash"> &mdash; </span
+              ><a href="#faq" class="navigation__link">faq</a>
+            </li>
+            <li class="navigation__item">
+              <span class="navigation__dash"> &mdash; </span
+              ><a href="#contact" class="navigation__link">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="preview" id="top">
+          <div class="preview__inner-wrap">
+            <h1 class="preview__title">HI-TECH DESIGN</h1>
+            <p class="preview__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              voluptate autem adipisci.
+            </p>
+            <button class="preview__button">EXPLORE</button>
+          </div>
+          <div class="preview-slider">
+            <div class="preview-slider__items">
+              <input
+                class="preview-slider__item"
+                type="radio"
+                name="r"
+                id="r1"
+                title="r1"
+                checked
+              />
+              <input
+                class="preview-slider__item"
+                type="radio"
+                name="r"
+                id="r2"
+                title="r2"
+              />
+              <div class="preview-slide s1">
+                <img src="https://i.ibb.co/b7Wkg2D/01.jpg" alt="" />
+              </div>
+              <div class="preview-slide">
+                <img src="https://i.ibb.co/8DTY9Ps/03.jpg" alt="" />
+              </div>
+            </div>
+            <div class="preview-slider__navigation-wrap">
+              <div class="preview-slider__navigation preview-slider__control">
+                <div class="preview-slider__control-wrap">
+                  <label class="preview-slider__control-r1" for="r1"></label>
+                </div>
+                <div class="preview-slider__control-wrap">
+                  <label class="preview-slider__control-r2" for="r2"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="service">
+          <div class="service__cards">
+            <div class="card service__card-box">
+              <div class="service__card-box__inner-wrap">
+                <div class="card__icon">
+                  <i class="fas fa-chess-queen"></i>
+                </div>
+                <h2 class="card__title">Art Of Coding</h2>
+                <p class="card__context">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="card service__card-box">
+              <div class="service__card-box__inner-wrap">
+                <div class="card__icon">
+                  <i class="far fa-calendar"></i>
+                </div>
+                <h2 class="card__title">Responsive Design</h2>
+                <p class="card__context">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="card service__card-box">
+              <div class="service__card-box__inner-wrap">
+                <div class="card__icon">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <h2 class="card__title">Feature Reach</h2>
+                <p class="card__context">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="card service__card-box">
+              <div class="service__card-box__inner-wrap">
+                <div class="card__icon">
+                  <i class="fas fa-book-open"></i>
+                </div>
+                <h2 class="card__title">Useful Documentation</h2>
+                <p class="card__context">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="card service__card-box">
+              <div class="service__card-box__inner-wrap">
+                <div class="card__icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <h2 class="card__title">Fast Delivery</h2>
+                <p class="card__context">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="card service__card-box">
+              <div class="service__card-box__inner-wrap">
+                <div class="card__icon">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <h2 class="card__title">Free Plugins</h2>
+                <p class="card__context">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="products" id="products">
+          <div class="products__wrap">
+            <div class="products__preview">
+              <h2 class="products__preview__title">Latest products</h2>
+              <p class="products__preview__contexst">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. .
+              </p>
+            </div>
+            <div class="products__inner-wrap">
+              <div class="description">
+                <div>
+                  <img
+                    class="products__picture"
+                    src="images/970x647/01.jpg"
+                    alt=""
+                  />
+                </div>
+                <h3 class="products__title">
+                  Triangle Roof &nbsp;&nbsp;&nbsp;
+                  <span class="products__subtitle">&nbsp; MANAGEMENT </span>
+                </h3>
+                <p class="products__description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a class="products__description-more" href=""
+                  ><b>READ MORE &mdash;</b>
+                </a>
+              </div>
+              <div class="description">
+                <div>
+                  <img
+                    class="products__picture"
+                    src="images/970x647/02.jpg"
+                    alt=""
+                  />
+                </div>
+                <h3 class="products__title">
+                  Curved Corners &nbsp;&nbsp;&nbsp;
+                  <span class="products__subtitle">&nbsp; DEVELOPMENY </span>
+                </h3>
+                <p class="products__description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a class="products__description-more" href=""
+                  ><b>READ MORE &mdash;</b>
+                </a>
+              </div>
+              <div class="description">
+                <div>
+                  <img
+                    class="products__picture"
+                    src="images/970x647/03.jpg"
+                    alt=""
+                  />
+                </div>
+                <h3 class="products__title">
+                  Bird On Green &nbsp;&nbsp;&nbsp;
+                  <span class="products__subtitle">&nbsp;DESIGN</span>
+                </h3>
+                <p class="products__description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a class="products__description-more" href=""
+                  ><b>READ MORE &mdash;</b>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <scroll-container id="faq">
+        <div class="sponsors" title="Use SHIFT + Mouse wheel to scroll">
+          <div class="sponsors-view-field">
+            <div class="sponsors-wrapper">
+              <a href="" title="discord" target="blank" class="sponsors__link">
+                <img
+                  class="sponsors__logo"
+                  src="images/clients/01.png"
+                  alt="Logo sponsor discord"
+                />
+              </a>
+              <a href="" title="netflix" target="blank" class="sponsors__link">
+                <img
+                  class="sponsors__logo"
+                  src="images/clients/02.png"
+                  alt="Logo sponsor netflix"
+                />
+              </a>
+              <a href="" title="broadcom" target="blank" class="sponsors__link">
+                <img
+                  class="sponsors__logo"
+                  src="images/clients/03.png"
+                  alt="Logo sponsor broadcom"
+                />
+              </a>
+              <a href="" title="hoop" target="blank" class="sponsors__link">
+                <img
+                  class="sponsors__logo"
+                  src="images/clients/04.png"
+                  alt="Logo sponsor hoop"
+                />
+              </a>
+              <a href="" title="airbnb" target="blank" class="sponsors__link">
+                <img
+                  class="sponsors__logo"
+                  src="images/clients/05.png"
+                  alt="Logo sponsor airbnb"
+                />
+              </a>
+              <a href="" title="heineken" target="blank" class="sponsors__link">
+                <img
+                  class="sponsors__logo"
+                  src="images/clients/06.png"
+                  alt="Logo sponsor Heineken"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </scroll-container>
+
+      <section>
+        <div class="reviews">
+          <div class="content reviews__content">
+            <h2 class="content__title content__title-wrapper">
+              Customer Reviews
+            </h2>
+            <div class="carousel reviews__carousel-wrapper">
+              <input
+                type="radio"
+                name="radio-rev"
+                title="review1"
+                id="review-1"
+                class="reviews-radio"
+                checked
+              />
+              <label for="review-1" class="reviews-label1"></label>
+              <input
+                type="radio"
+                name="radio-rev"
+                title="review2"
+                id="review-2"
+                class="reviews-radio"
+              />
+              <label for="review-2" class="reviews-label2"></label>
+              <div class="reviews__inner">
+                <div class="reviews__item">
+                  <div class="reviews__text">
+                    <div
+                      class="reviews__quotation reviews__quotation-wrapper"
+                    ></div>
+                    <div class="reviews__quote">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit
+                        sed tempor incididunt ut laboret dolore magna aliqua. Ut
+                        enim minim veniam exercitation laboris ut siad consequat
+                        siad minim enum esqudiat dolore.
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit
+                        sed tempor incididunt ut laboret tempor incididun .
+                      </p>
+                      <span class="reviews__author">Joh Milner</span>, Metronic
+                      Customer
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews__item reviews__item2">
+                  <div class="reviews__text">
+                    <div
+                      class="reviews__quotation reviews__quotation-wrapper"
+                    ></div>
+                    <div class="reviews__quote">
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                      </p>
+                      <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                      <span class="reviews__author">Alex Clarson</span>,
+                      Metronic Customer
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="tariffs" id="pricing">
+          <div class="tariffs__cards">
+            <div class="tariffs__item">
+              <div class="tariffs__item__wrap">
+                <div class="tariffs__item__ikon">
+                  <i class="fas fa-chess-pawn"></i>
+                </div>
+                <h2 class="tariffs__item__title">
+                  Starter Kit
+                  <span class="tariffs__item__title-item"> -$ </span> 49
+                </h2>
+                <p class="tariffs__item__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor.
+                </p>
+                <ul class="tariffs__list">
+                  <li class="tariffs__list-item">&ndash; Basic Features</li>
+                  <li class="tariffs__list-item">&ndash; Up to 5 products</li>
+                  <li class="tariffs__list-item">&ndash; 50 Users Panels</li>
+                </ul>
+                <button class="tariffs__item__button">CHOOSE</button>
+              </div>
+            </div>
+            <div class="tariffs__item__middle">
+              <div class="tariffs__middle__wrap">
+                <div class="tariffs__item__ikon">
+                  <i class="fas fa-jedi"></i>
+                </div>
+                <h2 class="tariffs__item__title">
+                  Professional
+                  <span class="tariffs__item__title-item"> -$ </span> 149
+                </h2>
+                <p class="tariffs__item__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor.
+                </p>
+                <ul class="tariffs__list">
+                  <li class="tariffs__list-item">&ndash; Basic Features</li>
+                  <li class="tariffs__list-item">&ndash; Up to 5 products</li>
+                  <li class="tariffs__list-item">&ndash; 50 Users Panels</li>
+                </ul>
+                <button class="tariffs__item__button">CHOOSE</button>
+              </div>
+            </div>
+            <div class="tariffs__item">
+              <div class="tariffs__item__wrap">
+                <div class="tariffs__item__ikon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <h2 class="tariffs__item__title">
+                  Advanced<span class="tariffs__item__title-item"> -$ </span>
+                  249
+                </h2>
+                <p class="tariffs__item__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor.
+                </p>
+                <ul class="tariffs__list">
+                  <li class="tariffs__list-item">&ndash; Basic Features</li>
+                  <li class="tariffs__list-item">&ndash; Up to 5 products</li>
+                  <li class="tariffs__list-item">&ndash; 50 Users Panels</li>
+                </ul>
+                <button class="tariffs__item__button">CHOOSE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="clients" id="clients">
+          <div class="clients__wrap">
+            <div class="clients__content">
+              <h2 class="clients__content__title">Our Clients</h2>
+              <div class="clients__content__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  optio eos odit animi, aspernatur fugit ducimus atque
+                  consectetur.
+                </p>
+                <p>
+                  Autem architecto veniam ad amet animi obcaecati dicta quos
+                  rerum modi. Adipisci quis inventore ratione. Labore,
+                  veritatis, quas odio beatae quae ex odit perferendis et
+                  accusantium inventore nobis esse possimus.
+                </p>
+              </div>
+            </div>
+            <img
+              class="clients__picture"
+              src="images/970x970/01.jpg"
+              alt="lients__picture"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="gallery" id="about">
+          <div class="content-box">
+            <div class="gallery-heading-wrap">
+              <div class="gallery-heading">
+                <h2 class="heading gallery-heading__heading">Showcase</h2>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed
+                  tempor incididunt ut laboret dolore magna aliqua enim minim
+                  veniam exercitation ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="gallery-wrap">
+              <div class="gallery__img1 gallery__img1-wrapper">
+                <div class="gallery__dark-bg">
+                  <h2 class="gallery__dark-bg__title-wrapper">Art Of Coding</h2>
+                  <p class="gallery__dark-bg__text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing
+                  </p>
+                </div>
+              </div>
+              <div class="gallery__img2 gallery__img2-wrapper">
+                <div class="gallery__dark-bg">
+                  <h2 class="gallery__dark-bg__title-wrapper">Clean Design</h2>
+                  <p class="gallery__dark-bg__text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing
+                  </p>
+                </div>
+              </div>
+              <div class="gallery__img3 gallery__img3-wrapper">
+                <div class="gallery__dark-bg">
+                  <h2 class="gallery__dark-bg__title-wrapper">Clean Design</h2>
+                  <p class="gallery__dark-bg__text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing
+                  </p>
+                </div>
+              </div>
+              <div class="gallery__img4 gallery__img4-wrapper">
+                <div class="gallery__dark-bg">
+                  <h2 class="gallery__dark-bg__title-wrapper">Clean Design</h2>
+                  <p class="gallery__dark-bg__text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing
+                  </p>
+                </div>
+              </div>
+              <div class="gallery__img5 gallery__img5-wrapper">
+                <div class="gallery__dark-bg">
+                  <h2 class="gallery__dark-bg__title-wrapper">Clean Design</h2>
+                  <p class="gallery__dark-bg__text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div>
+        <a href="#top" class="button-up">TOP</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer" id="contact">
+        <div class="footer__separator">
+          <div class="content-box">
+            <div class="footer-wrap">
+              <div class="first-column">
+                <ul class="ref-list">
+                  <li class="ref-list__elem">
+                    <a href="#" class="ref-list__ref">Home</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#about" class="ref-list__ref">About</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#products" class="ref-list__ref">Products</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#pricing" class="ref-list__ref">Pricing</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#clients" class="ref-list__ref">Clients</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#" class="ref-list__ref">Careers</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#contact" class="ref-list__ref">Contact</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#" class="ref-list__ref">Terms</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="second-column">
+                <ul class="ref-list">
+                  <li class="ref-list__elem">
+                    <a href="#" class="ref-list__ref">Twitter</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#" class="ref-list__ref">Facebook</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#" class="ref-list__ref">Instagram</a>
+                  </li>
+                  <li class="ref-list__elem">
+                    <a href="#" class="ref-list__ref">YouTube</a>
+                  </li>
+                </ul>
+              </div>
+              <form class="form">
+                <h2 class="form__heading">Send Us A Note</h2>
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="Email"
+                  required
+                />
+                <input
+                  type="tel"
+                  class="form__input"
+                  placeholder="Phone"
+                  required
+                />
+                <textarea
+                  title="textarea"
+                  rows="6"
+                  class="form__textarea"
+                  placeholder="Message"
+                ></textarea>
+                <button type="submit" class="button-submit form__button">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="container-copyright">
+          <div>
+            <img class="footer-logo" src="images/logo.png" alt="logo company" />
+          </div>
+          <div class="copyright-wrap">
+            <p class="copyright">
+              <a href="#" class="copyright__link">Asentus</a>
+              <span class="copyright__item"> Theme Powered by:</span>
+              <a href="#" class="copyright__link">KeenThemes.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

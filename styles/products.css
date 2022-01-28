@@ -1,0 +1,125 @@
+.products {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.products__wrap {
+  margin: 4rem 0 5.5rem 0;
+  max-width: 1200px;
+  width: 82%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.products__preview {
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.products__preview__title {
+  font-size: 2rem;
+  font-family: "Hind-Regular", sans-serif;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.description {
+  height: auto;
+  width: 24rem;
+}
+
+.products__picture {
+  width: 100%;
+  height: 100%;
+}
+
+.products__inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.products__title {
+  font-size: 1.2rem;
+  font-family: "Hind-Regular", sans-serif;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.products__title:hover {
+  color: rgba(128, 128, 128, 0.74);
+  cursor: pointer;
+}
+
+.products__subtitle {
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.514);
+}
+
+.products__description {
+  color: rgba(128, 128, 128, 0.74);
+}
+
+.products__description-more {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: "Hind-Regular", sans-serif;
+  color: rgba(128, 128, 128, 0.74);
+}
+
+.products__description-more:hover {
+  color: rgba(128, 128, 128, 0.411);
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .description {
+    width: 21rem;
+    margin-bottom: 1rem;
+  }
+
+  .products__inner-wrap {
+    width: 100%;
+  }
+
+  .description {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .tariffs__cards {
+    justify-content: center;
+  }
+
+  .description {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .products__inner-wrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  .products__preview {
+    width: 90%;
+  }
+}
+
+@media (max-width: 360px) {
+  .description {
+    width: auto;
+  }
+}
